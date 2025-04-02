@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "youtube-transcript": {
+      "command": "npx",
+      "args": ["-y", "@kimtaeyoon83/mcp-server-youtube-transcript"]
+    },
+    "language-mirroring": {
+      "command": "python",
+      "args": ["language_mirroring_server.py"],
+      "env": {
+        "OPENAI_API_KEY": "your-openai-api-key-here",
+        "DEFAULT_LANGUAGE": "ko"
+      }
+    }
+  }
+} 
